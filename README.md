@@ -66,18 +66,13 @@ The "loc" and "iloc" functions can be used to display multiple rows and columns.
 
 ![Reading Scores for Different Grades](https://github.com/CSoldo1/Photos/blob/main/Deliverable_4_4.PNG)
 
-
-
-
-
-
-
-
 ## Deliverable 5: Compare the Data
+Like pivot tables in Excel, the "groupby" function in Python is an excellent way to sort and compare components of a data set. 
 
+![Groups and Aggregates](https://github.com/CSoldo1/Photos/blob/main/Deliverable_5.PNG)
 
-
-
+## Summary
+It's hard to adequately draw conclusions from the data without running statistical tests (i.e. t-tests, ANOVA, etc.). For future analyses, I think it would be interesting to get a dollar-per-student estimate (school budget/student count) and to see if a higher monetary investment in each student results in higher test scores. It would also be interesting to calculate a student:teacher ratio. I hypothesize that a smaller class size (and thus more personal instruction) would result in higher test scores as well...of course, we would need to add a column for teacher_count. Certainly, schools with a higher investment per individual student and a smaller student:teacher ratio would probably have the highest scores. 
 
 
 
