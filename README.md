@@ -23,7 +23,7 @@ To confirm that Pandas imported the data correctly, I used the "head" function.
 
 student_df.head()
 
-
+![Student Data](https://github.com/CSoldo1/kickstarter-analysis/blob/main/Pivot_Table_Screenshot.PNG)
 
 ## Deliverable 2: Prepare the Data
 Once the data fram was properly created, I cleaned up the data by checking for and removing any null or duplicated values. 
