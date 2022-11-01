@@ -1,14 +1,11 @@
 # School_District_Analysis
 
 ## Overview
+For this challenge, I was tasked with helping the chief data scientist of a city school district with preparing standardized test data for analysis, reporting, and presenting. Our analysis focuses primarily on student funding and overall standardized test scores. 
 
-
-## Source
-Data new_full_student_data.csv
-Python
-
-
-
+## Resources
+ * Data Source: new_full_student_data.csv
+ * Software: Python 3.7.1, Jupyter Notebook 
 
 ## Deliverable 1: Collect the Data
 I imported the data from the .csv file into a data frame using the following code:
