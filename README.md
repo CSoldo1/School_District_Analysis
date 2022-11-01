@@ -10,7 +10,7 @@ Python
 
 
 
-## Deliverable 1
+## Deliverable 1: Collect the Data
 I imported the data from the .csv file into a data frame using the following code:
 
 import pandas as pd
@@ -28,7 +28,7 @@ student_df.head()
 
 
 
-## Deliverable 2
+## Deliverable 2: Prepare the Data
 Once the data fram was properly created, I cleaned up the data by checking for and removing any null or duplicated values. 
 
 student_df.isnull()
@@ -40,6 +40,20 @@ I continued to clean and organize the data:
 
 And finally, I convered the "grade" column to a 'int' type by using the following code:
 student_df['grade'] = student_df['grade'].astype('int64')
+
+## Deliverable 3: Summarize the Data
+I used the 'describe' function to generate a list of summary statistics for each column.
+
+The mean math_score for all grades is 64.72 and the min_reading_score was 10.5. The min_reading_score was stored using:
+
+min_reading_score = student_df['reading_score'].min()
+
+## Deliverable 4: Drill Down into the Data
+The "loc" and "iloc" functions can be used to display multiple rows and columns. They can also be used to aggregate the data based on certain characteristics. 
+
+## Deliverable 5: Compare the Data
+
+
 
 
 
